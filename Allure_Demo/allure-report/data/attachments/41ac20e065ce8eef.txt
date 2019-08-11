@@ -1,0 +1,72 @@
+  File "/Library/Frameworks/Python.framework/Versions/3.7/bin/pytest", line 10, in <module>
+    sys.exit(main())
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/_pytest/config/__init__.py", line 80, in main
+    return config.hook.pytest_cmdline_main(config=config)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/pluggy/hooks.py", line 289, in __call__
+    return self._hookexec(self, self.get_hookimpls(), kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/pluggy/manager.py", line 68, in _hookexec
+    return self._inner_hookexec(hook, methods, kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/pluggy/manager.py", line 62, in <lambda>
+    firstresult=hook.spec.opts.get("firstresult") if hook.spec else False,
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/pluggy/callers.py", line 187, in _multicall
+    res = hook_impl.function(*args)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/_pytest/main.py", line 236, in pytest_cmdline_main
+    return wrap_session(config, _main)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/_pytest/main.py", line 203, in wrap_session
+    session.exitstatus = doit(config, session) or 0
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/_pytest/main.py", line 243, in _main
+    config.hook.pytest_runtestloop(session=session)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/pluggy/hooks.py", line 289, in __call__
+    return self._hookexec(self, self.get_hookimpls(), kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/pluggy/manager.py", line 68, in _hookexec
+    return self._inner_hookexec(hook, methods, kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/pluggy/manager.py", line 62, in <lambda>
+    firstresult=hook.spec.opts.get("firstresult") if hook.spec else False,
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/pluggy/callers.py", line 187, in _multicall
+    res = hook_impl.function(*args)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/_pytest/main.py", line 264, in pytest_runtestloop
+    item.config.hook.pytest_runtest_protocol(item=item, nextitem=nextitem)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/pluggy/hooks.py", line 289, in __call__
+    return self._hookexec(self, self.get_hookimpls(), kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/pluggy/manager.py", line 68, in _hookexec
+    return self._inner_hookexec(hook, methods, kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/pluggy/manager.py", line 62, in <lambda>
+    firstresult=hook.spec.opts.get("firstresult") if hook.spec else False,
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/pluggy/callers.py", line 187, in _multicall
+    res = hook_impl.function(*args)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/_pytest/runner.py", line 78, in pytest_runtest_protocol
+    runtestprotocol(item, nextitem=nextitem)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/_pytest/runner.py", line 93, in runtestprotocol
+    reports.append(call_and_report(item, "call", log))
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/_pytest/runner.py", line 173, in call_and_report
+    call = call_runtest_hook(item, when, **kwds)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/_pytest/runner.py", line 198, in call_runtest_hook
+    lambda: ihook(item=item, **kwds), when=when, reraise=reraise
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/_pytest/runner.py", line 226, in from_call
+    result = func()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/_pytest/runner.py", line 198, in <lambda>
+    lambda: ihook(item=item, **kwds), when=when, reraise=reraise
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/pluggy/hooks.py", line 289, in __call__
+    return self._hookexec(self, self.get_hookimpls(), kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/pluggy/manager.py", line 68, in _hookexec
+    return self._inner_hookexec(hook, methods, kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/pluggy/manager.py", line 62, in <lambda>
+    firstresult=hook.spec.opts.get("firstresult") if hook.spec else False,
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/pluggy/callers.py", line 187, in _multicall
+    res = hook_impl.function(*args)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/_pytest/runner.py", line 123, in pytest_runtest_call
+    item.runtest()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/_pytest/unittest.py", line 192, in runtest
+    self._testcase(result=self)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/case.py", line 663, in __call__
+    return self.run(*args, **kwds)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/case.py", line 615, in run
+    testMethod()
+  File "/Users/rakjha/PyProjects/POM_UnitTest_Project/Test_Cases/test_LoginPage.py", line 69, in test_Login_with_Invalid_UserName
+    self.lp.UserLogin(parameter1, parameter2)
+  File "/Users/rakjha/PyProjects/POM_UnitTest_Project/Page_Objects/LoginPage.py", line 43, in UserLogin
+    self.ClickLoginLink()
+  File "/Users/rakjha/PyProjects/POM_UnitTest_Project/Page_Objects/LoginPage.py", line 27, in ClickLoginLink
+    self.elementClick(self._LoginLink, locatorType="xpath")
+  File "/Users/rakjha/PyProjects/POM_UnitTest_Project/Utilities/SeleniumDriver.py", line 89, in elementClick
+    print_stack()

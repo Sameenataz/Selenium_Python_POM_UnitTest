@@ -1,0 +1,5 @@
+pip install selenium
+pip install pytest
+pip install configparser
+pip install unittest
+pip install allure-pytest

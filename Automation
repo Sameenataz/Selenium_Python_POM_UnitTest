@@ -1,0 +1,46 @@
+06/06/2019 09:20:48 PM - SeleniumDriver - INFO: Element found with locator: //a[@href='/login'] and  locatorType: xpath
+06/06/2019 09:20:48 PM - SeleniumDriver - INFO: Clicked on element with locator: //a[@href='/login'] locatorType: xpath
+06/06/2019 09:20:51 PM - SeleniumDriver - INFO: Element not found with locator: //a[@href='/login'] and  locatorType: xpath
+06/06/2019 09:20:51 PM - SeleniumDriver - INFO: Cannot click on the element with locator: //a[@href='/login'] locatorType: xpath
+06/06/2019 09:20:51 PM - SeleniumDriver - INFO: Element found with locator: login_field and  locatorType: id
+06/06/2019 09:20:51 PM - SeleniumDriver - INFO: Sent data on element with locator: login_field locatorType: id
+06/06/2019 09:20:51 PM - SeleniumDriver - INFO: Element found with locator: password and  locatorType: id
+06/06/2019 09:20:52 PM - SeleniumDriver - INFO: Sent data on element with locator: password locatorType: id
+06/06/2019 09:20:52 PM - SeleniumDriver - INFO: Element found with locator: commit and  locatorType: name
+06/06/2019 09:20:53 PM - SeleniumDriver - INFO: Clicked on element with locator: commit locatorType: name
+06/06/2019 09:21:01 PM - SeleniumDriver - INFO: Element not found with locator: //details[@id='account-switcher-left']//span[@class='css-truncate css-truncate-target'] and  locatorType: xpath
+06/06/2019 09:21:01 PM - SeleniumDriver - INFO: Element not present with locator: //details[@id='account-switcher-left']//span[@class='css-truncate css-truncate-target'] locatorType: xpath
+06/06/2019 09:21:41 PM - SeleniumDriver - INFO: Element found with locator: //a[@href='/login'] and  locatorType: xpath
+06/06/2019 09:21:42 PM - SeleniumDriver - INFO: Clicked on element with locator: //a[@href='/login'] locatorType: xpath
+06/06/2019 09:21:45 PM - SeleniumDriver - INFO: Element not found with locator: //a[@href='/login'] and  locatorType: xpath
+06/06/2019 09:21:45 PM - SeleniumDriver - INFO: Cannot click on the element with locator: //a[@href='/login'] locatorType: xpath
+06/06/2019 09:21:45 PM - SeleniumDriver - INFO: Element found with locator: login_field and  locatorType: id
+06/06/2019 09:21:46 PM - SeleniumDriver - INFO: Sent data on element with locator: login_field locatorType: id
+06/06/2019 09:21:46 PM - SeleniumDriver - INFO: Element found with locator: password and  locatorType: id
+06/06/2019 09:21:46 PM - SeleniumDriver - INFO: Sent data on element with locator: password locatorType: id
+06/06/2019 09:21:46 PM - SeleniumDriver - INFO: Element found with locator: commit and  locatorType: name
+06/06/2019 09:21:46 PM - SeleniumDriver - INFO: Clicked on element with locator: commit locatorType: name
+06/06/2019 09:21:54 PM - SeleniumDriver - INFO: Element not found with locator: //details[@id='account-switcher-left']//span[@class='css-truncate css-truncate-target'] and  locatorType: xpath
+06/06/2019 09:21:54 PM - SeleniumDriver - INFO: Element not present with locator: //details[@id='account-switcher-left']//span[@class='css-truncate css-truncate-target'] locatorType: xpath
+06/06/2019 09:22:13 PM - SeleniumDriver - INFO: Element found with locator: //a[@href='/login'] and  locatorType: xpath
+06/06/2019 09:22:14 PM - SeleniumDriver - INFO: Clicked on element with locator: //a[@href='/login'] locatorType: xpath
+06/06/2019 09:22:17 PM - SeleniumDriver - INFO: Element not found with locator: //a[@href='/login'] and  locatorType: xpath
+06/06/2019 09:22:17 PM - SeleniumDriver - INFO: Cannot click on the element with locator: //a[@href='/login'] locatorType: xpath
+06/06/2019 09:22:17 PM - SeleniumDriver - INFO: Element found with locator: login_field and  locatorType: id
+06/06/2019 09:22:17 PM - SeleniumDriver - INFO: Sent data on element with locator: login_field locatorType: id
+06/06/2019 09:22:17 PM - SeleniumDriver - INFO: Element found with locator: password and  locatorType: id
+06/06/2019 09:22:17 PM - SeleniumDriver - INFO: Sent data on element with locator: password locatorType: id
+06/06/2019 09:22:17 PM - SeleniumDriver - INFO: Element found with locator: commit and  locatorType: name
+06/06/2019 09:22:19 PM - SeleniumDriver - INFO: Clicked on element with locator: commit locatorType: name
+06/06/2019 09:22:27 PM - SeleniumDriver - INFO: Element not found with locator: //details[@id='account-switcher-left']//span[@class='css-truncate css-truncate-target'] and  locatorType: xpath
+06/06/2019 09:22:27 PM - SeleniumDriver - INFO: Element not present with locator: //details[@id='account-switcher-left']//span[@class='css-truncate css-truncate-target'] locatorType: xpath
+06/06/2019 09:23:54 PM - SeleniumDriver - INFO: Element found with locator: user[login] and  locatorType: id
+06/06/2019 09:23:54 PM - SeleniumDriver - INFO: Sent data on element with locator: user[login] locatorType: id
+06/06/2019 09:23:54 PM - SeleniumDriver - INFO: Element found with locator: user[email] and  locatorType: id
+06/06/2019 09:23:54 PM - SeleniumDriver - INFO: Sent data on element with locator: user[email] locatorType: id
+06/06/2019 09:23:54 PM - SeleniumDriver - INFO: Element found with locator: user[password] and  locatorType: id
+06/06/2019 09:23:54 PM - SeleniumDriver - INFO: Sent data on element with locator: user[password] locatorType: id
+06/06/2019 09:23:54 PM - SeleniumDriver - INFO: Element found with locator: //button[@type='submit'] and  locatorType: xpath
+06/06/2019 09:23:57 PM - SeleniumDriver - INFO: Clicked on element with locator: //button[@type='submit'] locatorType: xpath
+06/06/2019 09:24:00 PM - SeleniumDriver - INFO: Element not found with locator: //p[@class='shelf-lead'] and  locatorType: xpath
+06/06/2019 09:24:00 PM - SeleniumDriver - INFO: Element not present with locator: //p[@class='shelf-lead'] locatorType: xpath

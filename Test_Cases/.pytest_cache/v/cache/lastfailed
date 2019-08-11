@@ -1,0 +1,8 @@
+{
+  "test_LoginPage.py::Github_Login_Functionality_validation::test_Login_with_Invalid_Password": true,
+  "test_LoginPage.py::Github_Login_Functionality_validation::test_Login_with_Invalid_UserName": true,
+  "test_LoginPage.py::Github_Login_Functionality_validation::test_Registration": true,
+  "test_TestClass.py::Github_Login_Functionality_validation::test_Login_with_Invalid_Password": true,
+  "test_TestClass.py::Github_Login_Functionality_validation::test_Login_with_Invalid_UserName": true,
+  "test_TestClass.py::Github_Login_Functionality_validation::test_Registration": true
+}

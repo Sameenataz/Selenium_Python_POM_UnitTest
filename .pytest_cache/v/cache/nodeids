@@ -1,0 +1,6 @@
+[
+  "Test_Cases/test_TestClass.py::Github_Login_Functionality_validation::test_Login_with_Invalid_Password",
+  "Test_Cases/test_TestClass.py::Github_Login_Functionality_validation::test_Login_with_Invalid_UserName",
+  "Test_Cases/test_TestClass.py::Github_Login_Functionality_validation::test_Login_with_valid_credentials",
+  "Test_Cases/test_TestClass.py::Github_Login_Functionality_validation::test_Registration"
+]

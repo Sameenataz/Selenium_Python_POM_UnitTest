@@ -1,0 +1,52 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: False != True",
+      "children" : [ {
+        "name" : "test_Login_with_Invalid_Password",
+        "uid" : "c7061b7cd52b072",
+        "parentUid" : "30d2dc30badeefa8977e497b39b7f0cd",
+        "status" : "failed",
+        "time" : {
+          "start" : 1559837102363,
+          "stop" : 1559837146509,
+          "duration" : 44146
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_Login_with_Invalid_UserName",
+        "uid" : "c7c597761d3acd26",
+        "parentUid" : "30d2dc30badeefa8977e497b39b7f0cd",
+        "status" : "failed",
+        "time" : {
+          "start" : 1559837146524,
+          "stop" : 1559837169830,
+          "duration" : 23306
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_Registration",
+        "uid" : "d48b26343f563454",
+        "parentUid" : "30d2dc30badeefa8977e497b39b7f0cd",
+        "status" : "failed",
+        "time" : {
+          "start" : 1559837199052,
+          "stop" : 1559837266514,
+          "duration" : 67462
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "30d2dc30badeefa8977e497b39b7f0cd"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

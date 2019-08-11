@@ -1,0 +1,65 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "test_LoginPage",
+    "children" : [ {
+      "name" : "Github_Login_Functionality_validation",
+      "children" : [ {
+        "name" : "test_Login_with_Invalid_Password",
+        "uid" : "c7061b7cd52b072",
+        "parentUid" : "f952d9fcdf059225d548c0d555777641",
+        "status" : "failed",
+        "time" : {
+          "start" : 1559837102363,
+          "stop" : 1559837146509,
+          "duration" : 44146
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_Login_with_Invalid_UserName",
+        "uid" : "c7c597761d3acd26",
+        "parentUid" : "f952d9fcdf059225d548c0d555777641",
+        "status" : "failed",
+        "time" : {
+          "start" : 1559837146524,
+          "stop" : 1559837169830,
+          "duration" : 23306
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_Login_with_valid_credentials",
+        "uid" : "ed06c30f601102c8",
+        "parentUid" : "f952d9fcdf059225d548c0d555777641",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559837169840,
+          "stop" : 1559837199047,
+          "duration" : 29207
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_Registration",
+        "uid" : "d48b26343f563454",
+        "parentUid" : "f952d9fcdf059225d548c0d555777641",
+        "status" : "failed",
+        "time" : {
+          "start" : 1559837199052,
+          "stop" : 1559837266514,
+          "duration" : 67462
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f952d9fcdf059225d548c0d555777641"
+    } ],
+    "uid" : "d02b7a20fee287e3f0adb1dbbbef7f4c"
+  } ]
+}

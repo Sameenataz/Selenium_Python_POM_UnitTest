@@ -1,0 +1,12 @@
+SeleniumDriver.py           74 INFO     Element found with locator: //a[@href='/login'] and  locatorType: xpath
+SeleniumDriver.py           85 INFO     Clicked on element with locator: //a[@href='/login'] locatorType: xpath
+SeleniumDriver.py           77 INFO     Element not found with locator: //a[@href='/login'] and  locatorType: xpath
+SeleniumDriver.py           88 INFO     Cannot click on the element with locator: //a[@href='/login'] locatorType: xpath
+SeleniumDriver.py           74 INFO     Element found with locator: login_field and  locatorType: id
+SeleniumDriver.py           96 INFO     Sent data on element with locator: login_field locatorType: id
+SeleniumDriver.py           74 INFO     Element found with locator: password and  locatorType: id
+SeleniumDriver.py           96 INFO     Sent data on element with locator: password locatorType: id
+SeleniumDriver.py           74 INFO     Element found with locator: commit and  locatorType: name
+SeleniumDriver.py           85 INFO     Clicked on element with locator: commit locatorType: name
+SeleniumDriver.py           77 INFO     Element not found with locator: //details[@id='account-switcher-left']//span[@class='css-truncate css-truncate-target'] and  locatorType: xpath
+SeleniumDriver.py          111 INFO     Element not present with locator: //details[@id='account-switcher-left']//span[@class='css-truncate css-truncate-target'] locatorType: xpath

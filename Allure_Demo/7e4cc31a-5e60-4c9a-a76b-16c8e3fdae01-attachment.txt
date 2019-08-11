@@ -1,0 +1,10 @@
+SeleniumDriver.py           74 INFO     Element found with locator: user[login] and  locatorType: id
+SeleniumDriver.py           96 INFO     Sent data on element with locator: user[login] locatorType: id
+SeleniumDriver.py           74 INFO     Element found with locator: user[email] and  locatorType: id
+SeleniumDriver.py           96 INFO     Sent data on element with locator: user[email] locatorType: id
+SeleniumDriver.py           74 INFO     Element found with locator: user[password] and  locatorType: id
+SeleniumDriver.py           96 INFO     Sent data on element with locator: user[password] locatorType: id
+SeleniumDriver.py           74 INFO     Element found with locator: //button[@type='submit'] and  locatorType: xpath
+SeleniumDriver.py           85 INFO     Clicked on element with locator: //button[@type='submit'] locatorType: xpath
+SeleniumDriver.py           77 INFO     Element not found with locator: //p[@class='shelf-lead'] and  locatorType: xpath
+SeleniumDriver.py          111 INFO     Element not present with locator: //p[@class='shelf-lead'] locatorType: xpath

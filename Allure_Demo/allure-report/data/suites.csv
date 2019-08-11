@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Thu Jun 06 21:35:02 IST 2019","Thu Jun 06 21:35:46 IST 2019","44146","","test_LoginPage","Github_Login_Functionality_validation","","","test_Login_with_Invalid_Password",""
+"failed","Thu Jun 06 21:36:39 IST 2019","Thu Jun 06 21:37:46 IST 2019","67462","","test_LoginPage","Github_Login_Functionality_validation","","","test_Registration",""
+"failed","Thu Jun 06 21:35:46 IST 2019","Thu Jun 06 21:36:09 IST 2019","23306","","test_LoginPage","Github_Login_Functionality_validation","","","test_Login_with_Invalid_UserName",""
+"passed","Thu Jun 06 21:36:09 IST 2019","Thu Jun 06 21:36:39 IST 2019","29207","","test_LoginPage","Github_Login_Functionality_validation","","","test_Login_with_valid_credentials",""

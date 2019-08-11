@@ -1,0 +1,77 @@
+{
+  "uid" : "d48b26343f563454",
+  "name" : "test_Registration",
+  "fullName" : "test_LoginPage.Github_Login_Functionality_validation#test_Registration",
+  "historyId" : "d7ad327ac4106515b8f76efe8faefe20",
+  "time" : {
+    "start" : 1559837199052,
+    "stop" : 1559837266514,
+    "duration" : 67462
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: False != True",
+  "statusTrace" : "self = <Test_Cases.test_LoginPage.Github_Login_Functionality_validation testMethod=test_Registration>\n\n    def test_Registration(self):\n        self.driver.get(self.baseURL)\n        parameter1 = str(config['sign_up']['email'])\n        parameter2 = str(config['sign_up']['password'])\n        parameter3 = str(config['sign_up']['retypePassword'])\n        self.rp.UserRegistration(parameter1, parameter2, parameter3)\n        result = self.rp.VerifyRegistration()\n>       self.assertEqual(result, True)\nE       AssertionError: False != True\n\ntest_LoginPage.py:39: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: False != True",
+    "statusTrace" : "self = <Test_Cases.test_LoginPage.Github_Login_Functionality_validation testMethod=test_Registration>\n\n    def test_Registration(self):\n        self.driver.get(self.baseURL)\n        parameter1 = str(config['sign_up']['email'])\n        parameter2 = str(config['sign_up']['password'])\n        parameter3 = str(config['sign_up']['retypePassword'])\n        self.rp.UserRegistration(parameter1, parameter2, parameter3)\n        result = self.rp.VerifyRegistration()\n>       self.assertEqual(result, True)\nE       AssertionError: False != True\n\ntest_LoginPage.py:39: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4bd060fc60a1a044",
+      "name" : "log",
+      "source" : "4bd060fc60a1a044.txt",
+      "type" : "text/plain",
+      "size" : 1090
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_LoginPage"
+  }, {
+    "name" : "subSuite",
+    "value" : "Github_Login_Functionality_validation"
+  }, {
+    "name" : "host",
+    "value" : "WKMIN7880754"
+  }, {
+    "name" : "thread",
+    "value" : "36785-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_LoginPage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "d48b26343f563454.json",
+  "parameterValues" : [ ]
+}

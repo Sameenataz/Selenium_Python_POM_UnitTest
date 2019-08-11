@@ -1,0 +1,41 @@
+[ {
+  "uid" : "c7061b7cd52b072",
+  "name" : "test_Login_with_Invalid_Password",
+  "time" : {
+    "start" : 1559837102363,
+    "stop" : 1559837146509,
+    "duration" : 44146
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "d48b26343f563454",
+  "name" : "test_Registration",
+  "time" : {
+    "start" : 1559837199052,
+    "stop" : 1559837266514,
+    "duration" : 67462
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "c7c597761d3acd26",
+  "name" : "test_Login_with_Invalid_UserName",
+  "time" : {
+    "start" : 1559837146524,
+    "stop" : 1559837169830,
+    "duration" : 23306
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "ed06c30f601102c8",
+  "name" : "test_Login_with_valid_credentials",
+  "time" : {
+    "start" : 1559837169840,
+    "stop" : 1559837199047,
+    "duration" : 29207
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

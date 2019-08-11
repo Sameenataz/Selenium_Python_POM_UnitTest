@@ -1,0 +1,83 @@
+{
+  "uid" : "c7c597761d3acd26",
+  "name" : "test_Login_with_Invalid_UserName",
+  "fullName" : "test_LoginPage.Github_Login_Functionality_validation#test_Login_with_Invalid_UserName",
+  "historyId" : "453fc10f54504c3d12d8cfb40fc51e1e",
+  "time" : {
+    "start" : 1559837146524,
+    "stop" : 1559837169830,
+    "duration" : 23306
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: False != True",
+  "statusTrace" : "self = <Test_Cases.test_LoginPage.Github_Login_Functionality_validation testMethod=test_Login_with_Invalid_UserName>\n\n    def test_Login_with_Invalid_UserName(self):\n        self.driver.get(self.baseURL)\n        parameter1 = str(config['sign_in']['invalid_email'])\n        parameter2 = str(config['sign_in']['password'])\n        self.lp.UserLogin(parameter1, parameter2)\n        time.sleep(5)\n        result = self.lp.VerifyLogin()\n>       self.assertEqual(result, True)\nE       AssertionError: False != True\n\ntest_LoginPage.py:72: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: False != True",
+    "statusTrace" : "self = <Test_Cases.test_LoginPage.Github_Login_Functionality_validation testMethod=test_Login_with_Invalid_UserName>\n\n    def test_Login_with_Invalid_UserName(self):\n        self.driver.get(self.baseURL)\n        parameter1 = str(config['sign_in']['invalid_email'])\n        parameter2 = str(config['sign_in']['password'])\n        self.lp.UserLogin(parameter1, parameter2)\n        time.sleep(5)\n        result = self.lp.VerifyLogin()\n>       self.assertEqual(result, True)\nE       AssertionError: False != True\n\ntest_LoginPage.py:72: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "537750c533be9f7d",
+      "name" : "log",
+      "source" : "537750c533be9f7d.txt",
+      "type" : "text/plain",
+      "size" : 1423
+    }, {
+      "uid" : "41ac20e065ce8eef",
+      "name" : "stderr",
+      "source" : "41ac20e065ce8eef.txt",
+      "type" : "text/plain",
+      "size" : 6301
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_LoginPage"
+  }, {
+    "name" : "subSuite",
+    "value" : "Github_Login_Functionality_validation"
+  }, {
+    "name" : "host",
+    "value" : "WKMIN7880754"
+  }, {
+    "name" : "thread",
+    "value" : "36785-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_LoginPage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "c7c597761d3acd26.json",
+  "parameterValues" : [ ]
+}
