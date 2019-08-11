@@ -7,6 +7,7 @@ def custom_logger(logLevel=logging.DEBUG):
     logger_name = inspect.stack()[1][3]
     logger = logging.getLogger(logger_name)
     # By default, log all messages
+
     logger.setLevel(logging.DEBUG)
 
     file_handler = logging.FileHandler("Automation".format(logger_name), mode='w')

@@ -4,22 +4,23 @@ import unittest
 
 from selenium import webdriver
 
-from Selenium_Python_POM_UnitTest.Page_Objects.LoginPage import LoginToGithub
-from Selenium_Python_POM_UnitTest.Page_Objects.RegistrationPage import Registration
+from Page_Objects.LoginPage import LoginToGithub
+from Page_Objects.RegistrationPage import Registration
 
 config = configparser.ConfigParser()
-config.read('/Users/rakjha/PyProjects/POM_UnitTest_Project/config.ini')
+config.read('D:\\Selenium_Python_POM_UnitTest\\config.ini')
 
 
 class Github_Login_Functionality_validation(unittest.TestCase):
     def setUp(self):
         self.baseURL = str(config['git_url']['url'])
-        self.driver = webdriver.Chrome()
+        self.driver = webdriver.Chrome("C:\\BrowserDrivers\\chromedriver.exe")
         self.driver.maximize_window()
         self.driver.implicitly_wait(3)
         self.driver.get(self.baseURL)
         self.rp = Registration(self.driver)
         self.lp = LoginToGithub(self.driver)
+        print('Set up Sucessful')
 
     """
     Test case 1 : Registration test case to Github.
